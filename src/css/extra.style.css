@@ -1,0 +1,52 @@
+#main{
+    width: 95%;
+    margin-right: auto;
+}
+
+.extra-ul{
+    position: relative;
+    padding: 3rem 0 3rem 6rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+}
+
+.extra-ul li h3, .extra-ul li p, .extra-ul span{
+    display: inline-block;
+}
+
+.extra-ul span{
+    font-size: 2rem;
+    position: absolute;
+    left: 40px;
+}
+
+.extra-ul hr{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+}
+
+@media screen and (max-width: 655px) {
+
+
+    #main{
+        margin-top: 150px;
+    }
+
+    .extra-ul{
+        padding: 3rem 0 0 6rem;
+        margin: 0;
+    }
+
+    .half-col{width: 100%;}
+
+    .extra-ul hr.hr-2{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 655px) {
+    .extra-ul hr.hr-2{
+        display: none;    
+    }
+}

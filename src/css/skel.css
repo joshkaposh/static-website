@@ -1,3 +1,7 @@
 .half-col{
     width: 50%;
 }
+
+body{
+    overflow-x: hidden;
+}

@@ -56,8 +56,12 @@
     }
 }
 
-
+/* Mobile */
 @media screen and (max-width: 655px) {
+    #rooms{
+        margin-bottom: 100px;
+    }
+
     .room-item{
         width: 100%;
     }
