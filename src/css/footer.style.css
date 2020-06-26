@@ -4,6 +4,8 @@
     color: #fff;
 }
 
+#footer section form .row{margin-bottom: 30px;}
+
 header.footer-header{
     padding-bottom: 3rem;
     text-transform: uppercase;
@@ -17,7 +19,28 @@ header.footer-header h2{
     font-weight: 600;
 }
 
+header.footer-header p{
+    font-size: 0.9rem;
+    width: 80%;
+    margin: 0 auto;
+}
 
-header.footer-header span{
-    color: rgba(255, 255, 255, 0.787);
+#name,#email,#message{width: 66.66%; border-radius: 6px; border: 0; padding-left: 5px;}
+#name,#email,#message:focus{outline: none; color: #000;}
+#name,#email{height: calc(100% + 15px)}
+#message{height: auto}
+
+ul.actions .submit-button:hover{background-color: #e1719d}
+ul.actions .submit-button{
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    background: #d84780;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1rem;
+    transition: 500ms;
+    padding: 0.75rem 1.5rem;
+    width: 20%;
 }

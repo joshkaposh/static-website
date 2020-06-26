@@ -1,0 +1,13 @@
+#copyright{
+    background-color: rgb(20, 20, 20);
+    color: rgba(255, 255, 255, 0.2);
+}
+
+#copyright .content{
+    padding: 3rem 0;
+    font-size: 0.85rem;
+}
+#copyright .content p a{color: rgba(255, 255, 255, 0.3)}
+#facebook,#twitter,#googleplus{margin-left: 15px}
+#copyright .content .icons{width: 30%; margin: 0 auto}
+#copyright .content .icons span a{color: rgba(255, 255, 255, 0.2)}

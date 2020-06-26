@@ -11,26 +11,26 @@ class Footer extends Component {
                         <p>Integer sit amet pede vel arcu aliquet pretium</p>
                     </header>
                     <form >
-                        <div className="half-row">
+                        <div className="row">
                             <div className="full-col">
                                 <input className="text" type="text" name="name" id="name" placeholder="Name" />
                             </div>
                         </div>
-                        <div className="half-row">
+                        <div className="row">
                             <div className="full-col">
                                 <input className="text" type="text" name="email" id="email" placeholder="Email" />
                             </div>
                         </div>
-                        <div className="half-row">
+                        <div className="row">
                             <div className="full-col">
-                                <textarea name="message" id="message" placeholder="Message"></textarea>
+                                <textarea rows="6" name="message" id="message" placeholder="Message"></textarea>
                             </div>
                         </div>
-                        <div className="half-row">
+                        <div className="row">
                             <div className="full-col">
                                 <ul className="actions">
                                     <li>
-                                        <input type="submit" value="Send Message" className="button alt" />
+                                        <input type="submit" value="Send Message" className="submit-button" />
                                     </li>
                                 </ul>
                             </div>

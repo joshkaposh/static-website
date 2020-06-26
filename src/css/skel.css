@@ -2,6 +2,10 @@
     width: 50%;
 }
 
+.full-col{
+    width: 100%;
+}
+
 body{
     overflow-x: hidden;
 }
