@@ -1,0 +1,44 @@
+/* Pre Component Styling Setup */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&display=swap');
+body{
+
+}
+
+body{
+  background: url(../images/bg.jpg) no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  margin: 0;
+  -webkit-backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root{
+  /* Mobile Variables */
+  --bg: #242526;
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --navBar-size: 60px;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  --speed: 500ms;
+/* Desktop Variables */
+  --logo-color: rgb(220, 220, 220);
+  --banner-color: #fff;
+  --banner-btn-bkgd-color: #d84780;
+  --member-title-color: rgb(230, 230, 230);
+  --member-desc-color: rgb(200, 200, 200);
+  --btn-hover: rgb(110, 219, 255);
+  --banner-btn-hover-bkgd-color: #f3659e;
+  --nav-size: 1rem;
+  --logo-size: 1.5rem;
+}
+
+strong{font-weight: bold}
+a:hover{text-decoration: none}

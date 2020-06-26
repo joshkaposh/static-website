@@ -1,0 +1,132 @@
+/* NEED TO DO
+
+    Either use react-bootstrap, or find a css gird-like library
+
+*/
+
+/* Room Media Queries */
+@media screen and (max-width: 1000px) {
+    .room-item{
+        width: 33%;
+        display: inline-block;
+        margin: 0 auto;
+        max-height: 400px;
+        min-height: 400px;
+        padding-right: 20px;
+    }
+
+    .room-desc{
+        padding: 3rem 2rem;
+    }
+
+    .room-button{
+        padding: 0.75rem 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .room-item{
+        width: 33%;
+        display: inline-block;
+        margin: 0 auto;
+        max-height: 400px;
+        min-height: 400px;
+    }
+
+    .room-image img {
+        max-width: 100%;
+        min-width: 100%;
+        background-position: center;
+    }
+
+    .room-desc{
+        padding: 3rem 2rem;
+    }
+
+    .room-button{
+        padding: 0.75rem 1.5rem;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .room-desc{
+        padding: 1.25rem 1rem;
+    }
+}
+
+
+@media screen and (max-width: 655px) {
+    .room-item{
+        width: 100%;
+    }
+
+    .room-image img {
+        max-height: 250px;
+        min-height: 250px;
+        max-width: 100%;
+        min-width: 100%;
+        background-position: center;
+    }
+}
+
+
+#rooms{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+/* #rooms .half-row .room-item  */
+.room-desc{
+ color: #555555;
+ font-family: 'Raleway', sans-serif;
+}
+
+.half-row{
+    height: 50%;
+    margin-bottom: 30px;
+}
+
+.room-item{
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.room-image img{
+    max-width: calc(100% - 10px);
+    min-width: calc(100% - 10px);
+    max-height: 120px;
+}
+
+.room-desc{
+    max-height: 280px;
+    min-height: 280px;
+    background-color: #fff;
+    min-width: calc(100% - 10px);
+    max-width: calc(100% - 10px);
+    margin: 0 auto;
+    border-radius: 0px 0px 6px 6px;
+}
+/* 
+.room-desc p{
+    font-weight: 400;
+} */
+
+
+
+.room-button{
+    background: #d84780;
+    color: #fff;
+    border-radius: 6px;
+    border: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.room-button:hover{
+    color: #fff;
+    background-color: var(--banner-btn-hover-bkgd-color);
+}

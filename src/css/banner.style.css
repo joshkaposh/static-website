@@ -1,0 +1,60 @@
+/* Banner Component */
+#banner{
+    margin-top: 96px;
+    margin-bottom: 6rem;
+    padding: 5rem 2rem 1.5rem 2rem;
+    color: var(--banner-color);
+    text-align: center;
+}
+
+#banner section{
+    width: 95%;
+    margin: auto;
+}
+
+
+.banner-btn{margin-top: 1.75rem}
+
+#banner p{
+    width: 100%;
+    /* margin: 0 auto; */
+    font-size: 1.5rem;
+    line-height: 1.75em;
+    margin-bottom: 2rem;
+    font-weight: lighter;
+    vertical-align: baseline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#banner a{
+    color: inherit;
+    padding: 0.80rem 2rem;
+    background: var(--banner-btn-bkgd-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 6px;
+    display: inline-block;
+    text-transform: uppercase;
+    -moz-transition: color 0.35s ease-in-out;
+    -webkit-transition: color 0.35s ease-in-out;
+    -o-transition: color 0.35s ease-in-out;
+    -ms-transition: color 0.35s ease-in-out;
+    transition: color 0.35s ease-in-out;
+    letter-spacing: 2px;
+
+}
+
+#banner a:hover{
+    background-color: var(--banner-btn-hover-bkgd-color);
+}
+
+@media screen and (max-width: 850px) {
+    #banner section p{
+        font-size: 1.1rem;
+    }
+    #banner section a{
+        font-size: 1rem;
+        padding: 0.8rem 2rem;
+        width: 50%;
+    }
+}
