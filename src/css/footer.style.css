@@ -44,3 +44,12 @@ ul.actions .submit-button{
     padding: 0.75rem 1.5rem;
     width: 20%;
 }
+
+@media screen and (max-width: 655px) {
+    ul.actions .submit-button{
+        width: 30%;
+        padding: .5rem;
+        font-size: 1rem;
+        letter-spacing: -1px;
+    }
+}

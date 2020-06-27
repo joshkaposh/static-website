@@ -34,15 +34,20 @@
     }
 
     .extra-ul{
-        padding: 3rem 0 0 6rem;
+        padding: 3rem 0 0 4rem;
         margin: 0;
     }
 
-    .half-col{width: 100%;}
-
-    .extra-ul hr.hr-2{
-        display: block;
+    .extra-ul span{
+        left: 30px;
     }
+
+
+    .half-col{width: 100%}
+    .extra-ul li p {width: 75%;}
+    .extra-ul hr.hr-1,.extra-ul hr.hr-2{width: 90%}
+    .extra-ul hr.hr-2{display: block;}
+
 }
 
 @media screen and (min-width: 655px) {
