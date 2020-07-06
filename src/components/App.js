@@ -25,7 +25,7 @@ function App() {
       <Banner />
       <Rooms />
       <Extra />
-      <Footer />
+      {/* <Footer /> */}
       <Copyright />
     </div>
   );
